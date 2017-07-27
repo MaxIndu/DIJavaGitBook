@@ -21,7 +21,7 @@ Emailer service = new Emailer();
 service.setSpellChecker(new FrenchSpellChecker());
 ```
 
-```
+```java
 Emailer service = new Emailer();
 service.setSpellChecker(new JapaneseSpellChecker());
 ```
@@ -64,14 +64,6 @@ Emailer service = new Emailer(new JapaneseSpellChecker());
 And has following** advantages**:
 
 * Being explicit about its contract - We can never create an Emailer without SpellChecker and forget about it's dependancies.
-
-
-
-
-
-
-
-
 
 
 
