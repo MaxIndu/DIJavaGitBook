@@ -63,7 +63,7 @@ By using constructor injection we have freedom to select whatever SpellChecker t
 Emailer service = new Emailer(new JapaneseSpellChecker());
 ```
 
-And has following** advantages**:
+And has following **advantages**:
 
 * Being explicit about its contract - We can never create an Emailer without SpellChecker and forget about it's dependancies.
 
